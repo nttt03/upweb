@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#FFF;
+}
+#logo{
+	float:left;
+	margin-left:15px;
+	margin-left:15px;
+	margin-top:20px;
+	height:100px;
+}
+#search{
+	margin-top:20px;
+	float:right;
+	height:40px;
+	width:340px;
+	background-color:white;
+	border:1px solid #228686;
+	border-radius:15px;
+	margin-right:5px;
+}
+#search input{
+	height:38px;
+	width:285px;
+	border:0px;
+	font-size:14px;
+	border-radius:15px;
+	padding-left:10px;
+}
+#search button{
+	border:0px;
+}
+#search button img{
+	height:auto;
+	width:25px;
+	vertical-align:middle;
+}
+nav{
+	margin-top:10px;
+	clear:both;
+	background-color:#228686;
+	height:45px;
+	width:100%;
+	margin:0px auto;
+}
+nav ul{
+	float:left;
+	list-style:none;
+	margin-left:50px;
+}
+nav ul li{
+	float:left;
+	padding:11px 30px;
+}
+nav ul li a{
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	color:#0C0;
+}
+#gt{
+	clear:both;
+}

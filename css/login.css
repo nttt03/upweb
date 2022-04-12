@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+#dangky{
+	margin:0px;
+	padding:0px;
+	margin-top:15px;
+	border:2px solid #066;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+	margin-right:20px;
+	margin-bottom:100px;
+	
+}
+form >p{
+	border:1px solid #066;
+	border-top-left-radius:5px;
+    border-top-right-radius:5px;
+	background-color:#066;
+	color:#FFF;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;
+	padding:5px;
+	height:25px;
+}
+legend{
+	font-size:18px;
+	color:#066;
+	font-weight:bold;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+#fs{
+	width:750px;
+	margin-left:70px;
+	margin-top:10px;
+	margin-bottom:30px;
+	border:1px solid #030;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#thongtindk{
+	height:500px;
+}
+.text{
+	padding-left:100px;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+#thongtindk input{
+	height:30px;
+	margin-left:50px;
+	padding-left:8px;
+	border:1px solid #999;
+	border-radius:5px;
+	outline:none;
+}
+#thongtindk select{
+	margin-left:50px;
+	padding-left:8px;
+}
+select{
+	margin-right:35px;
+	
+}
+#botton{
+	text-align:center;
+	margin-bottom:25px;
+}
+#botton input{
+	height:33px;
+	width:85px;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	font-weight:16px;
+	border-radius:5px;
+	border:none;
+	cursor:pointer;
+	background-color:#066;
+	color:#FFF;
+}
+#botton input:hover{
+	color:#F90;
+}

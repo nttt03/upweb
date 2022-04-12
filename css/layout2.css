@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#FFF;
+}
+header{
+	display:flex;
+	
+}
+#logo{
+	margin-left:15px;
+	margin-top:30px;
+	height:100px;
+	color:#066;
+	font-size:50px;
+	font-weight:10px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#search{
+	margin-top:35px;
+	height:40px;
+	min-width:450px;
+	background-color:white;
+	border:1px solid #066;
+	border-radius:15px;
+	margin-left:150px;
+	padding:2px;
+}
+#search input{
+	height:38px;
+	min-width:400px;
+	border:0px;
+	font-size:14px;
+	border-radius:15px;
+	padding-left:10px;
+	outline:none;
+}
+#search button{
+	border:0px;
+}
+#search button img{
+	height:auto;
+	width:30px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+#search button img:hover{
+	width:32px;
+}
+
+#login{
+	margin-top:50px;
+	margin-left:140px;
+}
+#login a{
+	margin:0 10px;
+	background:#066;
+	font-size:20px;
+	color:#FFF;
+	text-decoration:none;
+	padding:8px 15px;
+	border-radius:10px;
+}
+#login a:hover{
+	color:#F90;
+} 
+
+#body{
+	width:1200px;
+	margin:0px auto;
+	background-image: linear-gradient(0deg, #DADADA, #FFF);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav{
+	margin-top:10px;
+	clear:both;
+	background-color:#066;
+	height:45px;
+	width:100%;
+	margin:0px auto;
+	border-radius:2px;
+}
+nav ul{
+	float:left;
+	list-style:none;
+	margin-left:50px;
+}
+nav ul li{
+	float:left;
+	padding:11px 30px;
+}
+nav ul li a{
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	color:#F90;
+}
+.sub-menu>li{
+	clear:both;
+}
+.main-menu li{
+	position:relative;
+}
+.sub-menu{
+	z-index:99;
+	position:absolute;
+	background-color:#066;
+	margin-left:-25px;
+	margin-top:10px;
+	width:220px;
+	display:none;
+}
+.menu-link:hover .sub-menu{
+	display:block;
+}
+#bx{
+	margin-left:460px;
+	font-size:30px;
+	color:#F90;
+	padding-top:5px;
+}
+#bx>i>a{
+	padding-top:5px;
+}
+artical{
+	background-color:#303;
+	clear:both;
+	display:table-row;
+}
+section{
+	display:table-cell;
+	margin-top:20px;
+}
+section{
+	border-radius:5px;
+	width:1900px;
+	height:700px;
+	vertical-align:top;
+	padding:0px 5px;
+	background-image: linear-gradient(0deg, #FFF, #CCC);
+}
+h1{
+	font-family:"Times New Roman", Times, serif;
+	padding-top:60px;
+	color:#000;
+	font-size:40px;
+}
+#contact-left .text{
+	color:#000;
+	font-size:18px;
+	padding-top:12px;
+	padding-bottom:3px;
+	font-family:"Times New Roman", Times, serif;
+}
+input{
+	width:320px;
+	height:42px;
+	border-radius:5px;
+	border:1px solid #FFF;
+	background-color:#FFF;
+	outline:none;
+	padding-left:10px;
+}
+textarea{
+	width:320px;
+	height:120px;
+	border-radius:5px;
+	border:1px solid #FFF;
+	background-color:#FFF;
+	outline:none;
+	padding-left:10px;
+	margin-bottom:20px;
+}
+#send{
+	width:75px;
+	height:33px;
+	background-color:#000;
+	border:1px solid #000;
+	border-radius:5px;
+	font-size:20px;
+	color:#FFF;
+	margin-left:30px;
+	font-family:"Times New Roman", Times, serif;
+	
+}
+#send:hover{
+	font-size:33px;
+	color:#03F;
+}
+#contact{
+	
+	display:flex;
+	justify-content:space-around;
+	padding:30px 80px;
+}
+#ul-top{
+	padding-top:45px;
+	border-bottom:1px solid #999;
+}
+#ul-top li{
+	list-style:none;
+	margin-bottom:10px;
+}
+#ul-bottom{
+	margin-top:10px;
+}
+#ul-bottom li{
+	list-style:none;
+	float:left;
+	margin-right:8px;
+}
+#last{
+	clear:both;
+	border-top:1px solid #999;
+	font-family:"Times New Roman", Times, serif;
+	padding-top:10px;
+}
+.icon{
+	font-size:30px;
+}
+.bx:hover{
+	color:#666;
+	transition:0.09s linear;
+}
+span{
+	font-size:16px;
+	margin-left:10px;
+	vertical-align:middle;
+}
+footer{
+	margin-top:25px;
+	display:flex;
+	justify-content:c;
+	height:400px;
+	background-color:#066;
+}
+.f_left{
+	margin:20px 70px;
+}
+.f_right{
+	margin:20px 70px;
+}
+.f_left>p{
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:20px;
+	margin-bottom:5px;
+}
+.f_left>ul>li{
+	font-family:"Times New Roman", Times, serif;
+	list-style:none;
+	color:#FFF;
+	font-size:16px;
+	margin-bottom:3px;
+}
+.f_right>p{
+	font-family:"Times New Roman", Times, serif;
+	color:#FFF;
+	font-size:20px;
+	margin-bottom:5px;
+}
+

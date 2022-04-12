@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../css/layout2.css">
+<link rel="stylesheet" type="text/css" href="../css/spmoi.css">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="css/dangnhap.css">
+<link rel="stylesheet" type="text/css" href="../css/cart.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <header> 
+    <div id="logo">
+        <p>HOÀNG GIA</p>
+    </div>
+    <div id="search">
+        <input type="text" name="tsearch" placeholder="Search...">
+        <button>
+             <img src="../Images/find.png" width="300" height="300">
+        </button>
+    </div>
+    <div id="login"> 
+        <a href="../Sign up.html">Đăng ký</a>   
+        <a href="../Sign in.html">Đăng nhập</a>
+    </div>
+    </header>
+    
+    <nav>
+       <ul>
+         <li><a href="../Index.html"> TRANG CHỦ </a></li>
+         <li><a href="../About.html"> GIỚI THIỆU </a></li>
+         <li class="menu-link"><a href="../Product.html"> SẢN PHẨM </a>
+             <ul class="sub-menu">
+               <li><a href="#"> Điện thoại </a></li>
+               <li><a href="#"> Laptop </a></li>
+               <li><a href="#"> Sạc dự phòng </a></li>
+               <li><a href="#"> Tai nghe </a></li>
+               <li><a href="#"> Máy tính bảng </a></li>
+             </ul>
+         </li> 
+         <li><a href="../Contact.html"> LIÊN HỆ </a></li>  
+         <li id="bx"><i class='bx bx-cart-download bx-tada' ></i><a href="../Cart.html"> GIỎ HÀNG </a></li> 
+       </ul>
+    </nav>
+    
+    <div id="body">
+        
+    <article>
+    
+      <section>
+	  <!-- TemplateBeginEditable name="nd" -->
+      nd
+	  <!-- TemplateEndEditable -->
+      </section>
+      
+    </article>
+    </div>
+   
+    <footer>
+    <div class="f_left">
+        <p>Hỗ Trợ - Dịch Vụ</p>
+        <ul>
+            <li>Mua hàng trả góp</li>
+            <li>Hướng dẫn đặt hàng và thanh toán</li>
+            <li>Chính sách bảo hành</li>
+            <li>Câu hỏi thường gặp</li>
+            <li>Tra cứu đơn hàng</li>
+            <li>Chính sách bảo mật</li>
+            <li>Chính sách hủy giao dịch, đổi trả</li>
+            <li>Chính sách giải quyết khiếu nại</li>
+            <li>Điều khoản mua bán hàng hóa</li>
+            <li>Phạm vi, điều khoản gói bảo hành mở rộng</li>
+        </ul>    
+        </div>
+        <div class="f_left">
+        <p>Thông Tin Liên Hệ</p>
+        <ul>
+            <li>Bán hàng Online</li>
+            <li>Chăm sóc Khách Hàng</li>
+            <li>Hỗ Trợ Kỹ thuật</li>
+            <li>Hỗ trợ Bảo hành & Sửa chữa</li>
+         </ul>  
+        </div> 
+        <div class="f_right">
+        <p>Thanh toán miễn phí</p>
+        <img src="../Images/logo-atm.png"> <img src="../Images/logo-visa.png"><br>
+        <img src="../Images/logo-jcb.png"> <img src="../Images/logo-master.png"><br>
+        <img src="../Images/logo-vnpay.png">
+        </div>
+        <div class="f_right">
+        <p>Hình thức vận chuyển</p>
+        <img src="../Images/vnpost.jpg"> <img src="../Images/nhattin.jpg"><br>
+        <img src="../Images/logo-bct.png">
+        </div>
+    
+    </footer>
+ 
+</body>
+</html>

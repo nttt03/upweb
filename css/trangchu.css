@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+section{
+	margin-bottom:30px;
+}
+section>p{
+	border:2px solid #066;
+	border-radius:5px;
+	height:27px;
+	text-align:center;
+	color:#FFF;
+	background-color:#066;
+	width:100%;
+	margin-top:15px;
+	padding-top:5px;
+	margin-bottom:20px;
+	font-weight:bold;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+}
+section>img{
+	width:80%
+}
+.sp>p{
+	padding-bottom:8px;
+}
+.sp{
+	width:208px;
+	border:1px solid #999;
+	border-radius:5px;
+	float:left;
+	margin-right:12px;
+	background-color:#FFF;
+	text-align:center;
+	margin-bottom:30px;
+}
+.hinh{
+	
+	width:150px;
+	height:200px;
+	transition:all 0.5s ease;
+}
+.hinh:hover{
+	transform:scale(1.1);
+}
+.tensp>a{
+	text-decoration:none;
+	font-size:15px;
+	font-weight:bold;
+	color:#0F0;
+}
+.tensp>a:hover{
+	color:#F90;
+}
+.donggia{
+	font-weight:bold;
+}
+.gia{
+	font-weight:bold;
+	color:#F00;
+}
+.vnd{
+	font-weight:bold;
+}
+.chonmua{
+	transition:all 0.5s ease;
+	padding-bottom:7px;
+}
+.chonmua:hover{
+	transform:scale(1.1);
+}
