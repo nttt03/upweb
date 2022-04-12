@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+#dangnhap{
+	height:700px;
+	margin-left:10px;
+	background-image:url(../Images/login-bg.png);
+	background-size:auto;
+	background-repeat:no-repeat;
+	margin-bottom:100px;
+	margin-top:15px;
+	margin-right:40px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#dn{
+	width:300px;
+	height:400px;
+	margin:50px 80px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	transition:all 0.7s ease;
+}
+#dn:hover{
+	transform:scale(1.1);
+}
+#dn>p{
+	font-size:35px;
+	font-weight:bold;
+	color:#666;
+	padding-top:20px;
+	margin-bottom:30px;
+	font-family:"Times New Roman", Times, serif;
+}
+#dn input{
+	margin-bottom:20px;
+	margin-top:10px;
+	width:220px;
+	border:1px solid #CCC;
+	height:40px;
+	border-radius:5px;
+	padding-left:10px;
+	background-color:#FFF;
+	outline:none;
+}
+#dn a{
+	text-decoration:none;
+	font-size:18px;
+	color:#666;
+	font-family:"Times New Roman", Times, serif;
+}
+#dn a:hover{
+	font-size:19px;
+	transition:0.2s linear;
+}
+.sub button{
+	width:230px;
+	height:40px;
+}
+.sub button{
+	padding:10px;
+	cursor:pointer;
+	color:#666;
+	border:none;
+	border:1px solid #CCC;
+	border-radius:5px;
+	font-size:18px;
+	margin-bottom:20px;
+	font-family:"Times New Roman", Times, serif;
+}
+.sub button:hover{
+	font-size:20px;
+	transition:0.2s linear;
+	background-color:#CCC;
+	color:#FFF;
+}

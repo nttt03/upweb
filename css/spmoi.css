@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+.spm{
+	border:1px solid #066;
+	border-bottom-right-radius:17px;
+	border-top-right-radius:17px;
+	height:32px;
+	text-align:center;
+	color:#FFF;
+	background-color:#066;
+	width:30%;
+	padding-top:5px;
+	font-weight:bold;
+	font-size:22px;
+	margin-top:30px;
+	font-family:"Times New Roman", Times, serif;
+}
+.clock{
+	border:1px solid #F90;
+	border-bottom-right-radius:17px;
+	border-top-right-radius:17px;
+	height:32px;
+	text-align:center;
+	color:#FFF;
+	background-color:#F90;
+	width:30%;
+	margin-top:380px;
+	padding-top:5px;
+	font-weight:bold;
+	font-size:22px;
+	font-family:"Times New Roman", Times, serif;
+}
+.phukien{
+	border:1px solid #0C3;
+	border-bottom-right-radius:17px;
+	border-top-right-radius:17px;
+	height:32px;
+	text-align:center;
+	color:#FFF;
+	background-color:#0C3;
+	width:30%;
+	margin-top:740px;
+	padding-top:5px;
+	font-weight:bold;
+	font-size:22px;
+	font-family:"Times New Roman", Times, serif;
+}
+.sp>p{
+	padding-bottom:10px;
+}
+.sp{
+	width:230px;
+	border:1px solid #999;
+	border-radius:8px;
+	float:left;
+	margin-top:20px;
+	margin-right:6px;
+	background-color:#FFF;
+	text-align:center;
+	position:relative;
+}
+.hot{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.hinh{
+	width:150px;
+	height:200px;
+	padding-top:10px;
+	transition:all 0.4s ease;
+	
+}
+.hinh:hover{
+	transform:scale(1.1);
+}
+.tensp>a{
+	padding-bottom:10px;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	color:#0C0;
+}
+.tensp>a:hover{
+	color:#F0F;
+}
+.donggia{
+	font-weight:bold;
+}
+.gia{
+	font-weight:bold;
+	color:#F00;
+}
+.vnd{
+	font-weight:bold;
+}
+.chonmua{
+	transition:all 0.5s ease;
+	padding-bottom:7px;
+}
+.chonmua:hover{
+	transform:scale(1.1);
+}
+

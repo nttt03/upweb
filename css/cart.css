@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.sanpham{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	display:flex;
+	justify-content:space-around;
+	border-bottom:1px solid #999;
+}
+.sanpham img{
+	width:150px;
+	height:180px;
+}
+.sanpham input{
+	width:20px;
+	height:20px;
+	margin-top:70px;
+}
+.nd{
+	color:#666;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+	padding-left:10px;
+	padding-top:30px;
+	width:550px;
+	height:auto;
+}
+#mua button{
+	width:100px;
+	height:40px;
+	background-color:#066;
+	border:1px solid #066;
+	border-radius:10px;
+	margin-left:550px;
+	margin-bottom:60px;
+	margin-top:30px;
+	color:#FFF;
+	font-size:18px;
+	font-family:"Times New Roman", Times, serif;
+}
+#mua button:hover{
+	background-color:#F00;
+	border:none;
+	font-size:19px;
+}
+
